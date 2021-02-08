@@ -1,0 +1,5 @@
+deploy:
+  - provider: script
+    script: bash echo "test"
+    on:
+      branch: main
