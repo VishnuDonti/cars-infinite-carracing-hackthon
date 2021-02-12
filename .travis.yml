@@ -1,4 +1,4 @@
-language: script
+language: python
 
 deploy:
   - provider: script
