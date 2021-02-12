@@ -1,7 +1,7 @@
-language: python
+language: bash
 
 deploy:
   - provider: script
-    script: scripts/deploy.sh
+    script: bash scripts/deploy.sh
     on:
       branch: main
